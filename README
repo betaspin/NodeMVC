@@ -1,0 +1,12 @@
+Cette application est un exemple d'architecture d'un projet NodeJS en MVC basée sur le Framework Express et le moteur de template EJS.
+Cette architecture est basée sur le module npm
+
+Le fichier app.js à la racine du site est le fichier d'entrée dans l'application.
+Il importe le fichier de routes '/config/routes.js'. Ce dernier contient les routes de l'application.
+Les routes renvoient vers des controllers '/app/controllers/'. Ces derniers utilisent les fichiers de model '/app/models/'.
+Les vues de l'appli sont situées dans le répertoire '/app/views/'.
+
+Le dossier '/config/' contient un fichier de configuration pour l'url de votre BDD : database.js.
+
+Pour tester l'envoi de données en POST, vous pouvez utiliser le fichier form.html à la racine du site. Vous devez l'ouvrir dans votre navigateur favori.
+Ce dernier envoie les données sur l'url 'http://localhost:3000/message'.
