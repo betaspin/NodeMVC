@@ -1,5 +1,4 @@
 Cette application est un exemple d'architecture d'un projet NodeJS en MVC basée sur le Framework Express et le moteur de template EJS.
-Cette architecture est basée sur le module npm
 
 Le fichier app.js à la racine du site est le fichier d'entrée dans l'application.
 Il importe le fichier de routes '/config/routes.js'. Ce dernier contient les routes de l'application.
