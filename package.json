@@ -1,0 +1,17 @@
+{
+  "name": "nodemvc",
+  "version": "1.0.0",
+  "description": "Template MVC pour Node.js",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "body-parser": "~1.16.0",
+    "ejs": "~2.5.5",
+    "express": "~4.14.1",
+    "serve-favicon": "~2.3.2"
+  },
+  "author": "Jérôme Lamy"
+}
