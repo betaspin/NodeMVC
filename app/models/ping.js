@@ -3,7 +3,8 @@
  */
 var Q = require('q');
 var mongo = require('mongodb').MongoClient;
-var connexion = mongo.connect('mongodb://localhost:27017/exam');
+var configDB = require('../../config/database.js');
+var connexion = mongo.connect(configDB.url);
 
 
 var addMessage = function(data){
@@ -16,7 +17,7 @@ var addMessage = function(data){
     return d.promise;
 }
 
-exports.addMessage      = addMessage;
+exports.addMessage = addMessage;
 
 
 
